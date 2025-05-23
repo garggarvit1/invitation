@@ -1,0 +1,32 @@
+/* PersonForm.css */
+
+.form-container {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.form-input {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.form-textarea {
+  padding: 8px;
+  font-size: 16px;
+  height: 80px;
+}
+
+.form-button {
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
